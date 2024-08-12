@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(images/background4.jpg);
+  background-size: cover;
+}
+.edit-menu-container{
+  display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+
+.edit-main-con{
+  width: 100%;
+  max-width:768px;
+  margin: auto;
+
+   
+}
+.edit-image-con {
+  width: 100%;
+  max-width:100px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom:20px ;
+
+  
+   
+}
+.edit-image-con img {
+  width: 100px;
+  height: 100px;  
+  border-radius: 50%;
+
+}
+.edit-image-con button {
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+  width: 130px;
+  border: none;
+  margin-top: 10px;
+  color: #0bbcd0;
+
+  font-size: 23px;
+  margin-left: -12px;
+   
+  
+}
+span input[type=file]
+{
+  /* width: 90px; */
+  height: 100;
+  padding: 10px;
+  color: #0bbcd0;
+
+  
+}
+.edit-profile-con{
+  width: 100%;
+  padding: 10px;
+
+}
+.edit-profile-con input[type=text]
+{
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: solid;
+  opacity: 70%;
+  border: black;
+  border-radius: 20px;
+   
+}
+.edit-profile-con  label{
+  padding: 5px;
+  margin-top: 5px;
+}
+.button{
+margin: 10px 0;
+width: 300px;
+height: 50px;
+font-size: 18px;
+line-height: 50px;
+font-weight: 600;
+background: #dde1e7;
+border-radius: 25px;
+border: none;
+outline: none;
+cursor: pointer;
+color: #595959;
+box-shadow: 2px 2px 5px #BABECC,
+   -5px -5px 10px #ffffff73;
+}
+.button:focus{
+color: black;
+box-shadow: inset 2px 2px 5px #BABECC,
+   inset -5px -5px 10px #ffffff73;
+}    
+.edit-profile-con input[type=email]
+{
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: solid;
+  opacity: 70%;
+  border: black;
+  border-radius: 20px;
+   
+}
+label{
+  font-size: 24px;
+  color: #0bbcd0;
+}
+h4{
+  font-size: 24px;
+  color: #0bbcd0;
+}
